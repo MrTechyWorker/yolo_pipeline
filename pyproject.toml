@@ -1,0 +1,14 @@
+[project]
+name = "yolo-train-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "albumentations>=1.4.24",
+    "labelme2coco>=0.2.6",
+    "loguru>=0.7.3",
+    "numpy==1.26.4",
+    "pycocotools>=2.0.8",
+    "torch>=2.5.1",
+]
